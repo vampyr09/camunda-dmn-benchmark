@@ -1,0 +1,20 @@
+# Set the default behavior for all textfiles is to use Unix style (lf)
+* text=auto eol=lf
+
+# text files 
+*.adoc       text
+*.bat        text eol=crlf
+*.cmd        text eol=crlf
+*.css        text
+*.java       text
+*.html       text
+*.md         text
+*.properties text
+*.xml        text
+*.dmn        text
+
+
+# binary files
+*.png binary
+*.jpg binary
+*.pdf binary
