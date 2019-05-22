@@ -13,10 +13,19 @@ public class Course {
 
     private final SportsType sportsType;
 
+    /**
+     * The course duration in weeks.
+     */
     private final int courseDurationW;
 
+    /**
+     * The course training duration in minutes.
+     */
     private final int trainingDurationMin;
 
+    /** 
+     * The amount of trainings for this course.
+     */
     private final int trainingsAmount;
 
     public Course(final CourseType courseType, final UserGroup userGroup, final SportsType sportsType,

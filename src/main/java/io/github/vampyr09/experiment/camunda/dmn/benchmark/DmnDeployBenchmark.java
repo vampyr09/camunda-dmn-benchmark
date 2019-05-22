@@ -36,7 +36,7 @@ import io.github.vampyr09.experiment.camunda.dmn.benchmark.domain.UserGroup;
 @State(Scope.Thread)
 public class DmnDeployBenchmark extends DmnAware {
 
-    @Param({ "Decision_full_50", "Decision_full_100", "Decision_full_200", "Decision_full_400", "Decision_full_800" })
+    @Param({ "Decision_300", "Decision_600", "Decision_1200", "Decision_2400", "Decision_4800" })
     public String parseDecisions;
 
     @Setup
