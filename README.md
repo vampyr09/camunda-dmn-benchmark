@@ -7,7 +7,7 @@ It is running the `org.camunda.bpm.dmn:camunda-engine-dmn` in version `7.10.0`.
 ## Intention
 
 The intention of this project is to highlight that the `DmnEngine` takes a very long time to parse big decision tables when running with Java 8.0_212 compared to Java 11.0.3.
-It is used to ask the [Camunda BPM forum]() for the possible reasons to explain this performance differences.
+It is used to ask the [Camunda BPM forum](https://forum.camunda.org/t/dmn-parse-deploy-time-java-8-vs-java-11/13021) for the possible reasons to explain this performance differences.
 
 ## Running the benchmark
 
